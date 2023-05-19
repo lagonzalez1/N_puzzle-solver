@@ -1,9 +1,9 @@
 Overview:
-    The assignment, Assignment A, involves Search Algorithms,
+    This project involves Search Algorithms,
     in particular, Breadth-First, Depth-First, and A-Star.
     It involves a program that simulates a puzzle called an N-Puzzle:
     https://en.wikipedia.org/wiki/15_puzzle
-    In our version, the blank space is in the bottom right in the solution.
+    In my version the blank space is in the bottom right in the solution.
 
 
 Files:
@@ -39,29 +39,4 @@ Software Requirements:
 Running:
     python3 main.py
 
-Assignment:
-    Implement
-        (20 pt) Breadth First Search,
-        (20 pt) Depth First Search,
-        (20 pt) A-Star with the heuristic: # of misplaced tiles
-        (20 pt) A-Star with the heuristic: Sum of Manhattan Distance of each tile from correct position.
-    Compare (20pt):
-        Which algorithm performed the fastest,
-        which took up the most memory and
-        which gave the best solution.
-            - A*1  performed was the fastest, DFS took the most memroy, 
-              A*1 gave the best solution.
-        Include your answers in the README
-    Include a README with your code telling me how to run it,
-    any requirements or dependencies,
-    and the answers to the comparison questions above.
 
-    Submit your code and README as a single ZIP file
-
-Notes:
-    0 represents the empty space
-    Ties should be broken in the order: UP DOWN LEFT RIGHT
-    The goal state has the 0 in the bottom right
-    Be sure to submit clean, working code that is able to handle a variety of
-    sizes and puzzles
-    Code MUST be original. Copying code is considered academic dishonesty.
