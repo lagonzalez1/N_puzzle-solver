@@ -1,0 +1,67 @@
+Overview:
+    The assignment, Assignment A, involves Search Algorithms,
+    in particular, Breadth-First, Depth-First, and A-Star.
+    It involves a program that simulates a puzzle called an N-Puzzle:
+    https://en.wikipedia.org/wiki/15_puzzle
+    In our version, the blank space is in the bottom right in the solution.
+
+
+Files:
+    helpers.py:
+        Contains enums used for UP, DOWN, LEFT, and RIGHT.
+        Also contains 2 classes:
+            NPuzzle, that represents a puzzle with a current state.
+            It has functions to print the puzzle, read-in the puzzle,
+            swap 2 places, and evaluate if the puzzle is solved.
+
+            Node, which represents a Search Node.
+            It contains a puzzle state, a parent Node, a current search depth,
+            and a list of moves that have lead to this node.
+            It has functions to print all moves and to print the puzzle.
+
+    main.py
+        A driver used to run your code (All Algorithms) on all the examples.
+        I have given you 6 examples, and will graded your code against these 6,
+        as well as several others (of similar size)
+
+        Note that this file ONLY checks if your code solved the puzzle, but does
+        not check if you solved it using the right algorithm, or implemented the
+        algorithm correctly, which I will do.
+
+    search.py
+        A file with 4 algorithms that you will write as your assignment,
+        BFS, DFS, and 2 A-Stars. A shell has been included for each.
+        Be sure to return the correct expected values.
+
+Software Requirements:
+    You must be using python3
+
+Running:
+    python3 main.py
+
+Assignment:
+    Implement
+        (20 pt) Breadth First Search,
+        (20 pt) Depth First Search,
+        (20 pt) A-Star with the heuristic: # of misplaced tiles
+        (20 pt) A-Star with the heuristic: Sum of Manhattan Distance of each tile from correct position.
+    Compare (20pt):
+        Which algorithm performed the fastest,
+        which took up the most memory and
+        which gave the best solution.
+            - A*1  performed was the fastest, DFS took the most memroy, 
+              A*1 gave the best solution.
+        Include your answers in the README
+    Include a README with your code telling me how to run it,
+    any requirements or dependencies,
+    and the answers to the comparison questions above.
+
+    Submit your code and README as a single ZIP file
+
+Notes:
+    0 represents the empty space
+    Ties should be broken in the order: UP DOWN LEFT RIGHT
+    The goal state has the 0 in the bottom right
+    Be sure to submit clean, working code that is able to handle a variety of
+    sizes and puzzles
+    Code MUST be original. Copying code is considered academic dishonesty.
