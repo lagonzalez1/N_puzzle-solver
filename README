@@ -24,13 +24,13 @@ Files:
         I have given you 6 examples, and will graded your code against these 6,
         as well as several others (of similar size)
 
-        Note that this file ONLY checks if your code solved the puzzle, but does
+        Note that this file ONLY checks if code solved the puzzle, but does
         not check if you solved it using the right algorithm, or implemented the
         algorithm correctly, which I will do.
 
     search.py
-        A file with 4 algorithms that you will write as your assignment,
-        BFS, DFS, and 2 A-Stars. A shell has been included for each.
+        A file with 4 algorithms BFS, DFS, and 2 A-Stars. 
+        A shell has been included for each.
         Be sure to return the correct expected values.
 
 Software Requirements:
